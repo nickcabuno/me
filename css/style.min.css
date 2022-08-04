@@ -41,6 +41,10 @@ a:hover {
 img {
   max-width: 100%; }
 
+#hrf{
+  max-width: 150%;
+}
+
 .bg-fixed {
   background-size: cover; }
 
@@ -70,7 +74,12 @@ section {
   right: 0;
   left: 0;
   z-index: 11;
-  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); 
+}
+
+.headertext{
+  font-size: 20px;
+}
 
 .navbar-brand {
   font-size: 40px;
@@ -126,7 +135,6 @@ section {
     line-height: .9;
     font-weight: bold;
     display: inline-block;
-    border: 15px solid #fff;
     padding: 30px;
     font-size: 9rem;
     opacity: 0;
@@ -192,6 +200,16 @@ section {
     background-color: #333399;
     border-color: #333399;
     color: #fff; }
+
+.btn-outline-secondary {
+  color: #333399;
+  background-color: transparent;
+  background-image: none;
+  border-color: #333399; }
+  .btn-outline-secondary:hover {
+    background-color: #333399;
+    border-color: #333399;
+    color: white; }
 
 .btn-shadow {
   box-shadow: -5px 8px 20px 0px rgba(229, 16, 2, 0.15); }
