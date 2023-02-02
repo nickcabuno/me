@@ -58,8 +58,8 @@ section {
   position: relative; }
 
 .section-content {
-  padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-top: 25px;
+  padding-bottom: 25px; }
 
 .title-wrap,
 .section-title {
@@ -75,10 +75,6 @@ section {
   left: 0;
   z-index: 11;
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); 
-}
-
-.headertext{
-  font-size: 20px;
 }
 
 .navbar-brand {
@@ -144,6 +140,20 @@ section {
 .jumbotron-single h1 {
   font-size: 3rem !important; }
 
+.headertext1 {
+  font-size: 20px;
+  animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+  animation-delay: 0s;
+  opacity: 0;
+}
+
+.headertext2 {
+  font-size: 20px;
+  animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+}
+
 .overlay {
   color: #fff; }
   .overlay:before {
@@ -195,11 +205,14 @@ section {
   color: #fff;
   background-color: transparent;
   background-image: none;
-  border-color: #fff; }
+  border-color: #fff;
+  margin-right: 5%;
+}
   .btn-outline-primary:hover {
     background-color: #333399;
     border-color: #333399;
-    color: #fff; }
+    color: #fff;
+  }
 
 .btn-outline-secondary {
   color: #333399;
